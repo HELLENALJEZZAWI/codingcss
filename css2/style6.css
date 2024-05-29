@@ -1,0 +1,29 @@
+body{
+    background-color: plum;
+}
+
+
+.container{
+ 
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+}
+.container .griddiv{
+   
+    flex-direction: column;
+    border: 2px none #000;
+    width: 25%;
+    background-color: bisque;
+}
+.scrolldiv{
+    border: 2px solid #000;
+
+
+}
+
+.scrollable-div {
+    height: 200px; /* set a fixed height for the div */
+    overflow-y: scroll; /* enable vertical scrollbar */
+  }

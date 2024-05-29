@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Div with Border, Header, and Paragraph</title>
+<style>
+  body{
+    background-color: rgb(234, 230, 170);
+  }
+  .divstyle{
+      display: flex	;
+      flex-direction: column;
+     /* align-items: center; */
+     justify-content: space-between; 
+      gap: 10px;
+
+
+  }
+    /* CSS for the div with border */
+    .bordered-div {
+        border: 2px solid #000; /* Border style */
+        padding: 20px; /* Padding to create space inside the border */
+        width: 75%; /* Adjust width as needed */
+        
+        background-color: aliceblue;
+
+    }
+    .bordered-div2{
+       
+        border: 2px dotted #000; /* Border style */
+        padding: 20px; /* Padding to create space inside the border */
+        width: 75%;
+    }
+    
+    
+    /* CSS for the header */
+    .bordered-div h2 {
+        margin-top: 0; /* Remove default margin */
+        color: #333; /* Header text color */
+    }
+    .p2{
+        border: 2px dotted #000; 
+    }
+    /* CSS for the paragraph */
+    .bordered-div p {
+        margin-bottom: 0; /* Remove default margin */
+        color: #666; /* Paragraph text color */
+    }
+    .mark{
+        background-color: pink;
+    }
+</style>
+</head>
+<body>
+    <!-- HTML for the bordered div with header and paragraph -->
+    <div class="divstyle">
+    <div class="bordered-div">
+        <h2>Header</h2>
+        <p>Lorem ipsum dolor sit amet, <mark> adipiscing elit</mark>. Nullam auctor magna vel mauris fermentum, eu consequat eros faucibus.</p>
+    </div>
+    <div class="bordered-div">
+        <h2>Header</h2>
+        <p>Lorem ipsum dolor sit amet,<mark class="mark"> consectetur adipiscing elit</mark>. Nullam auctor magna vel mauris fermentum, eu consequat eros faucibus.</p>
+    </div>
+    <div class="bordered-div2">
+        <h2>Header</h2>
+        <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor magna vel mauris fermentum, eu consequat eros faucibus.</p>
+    </div>
+</div>
+</body>
+</html>

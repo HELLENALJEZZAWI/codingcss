@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    background-color: brown;
+    height:200px;
+  }
+
+  .header h1{
+    color: burlywood;
+    position: relative;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(173, 110, 8);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding-left:100px; 
+    text-decoration: none;
+    display: inline-block;
+   
+  }
+  .topnav ul {
+    list-style-type: none;
+    
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    
+    
+  }
+  .topnav li {
+    float: left;
+  }
+  .topnav li a {
+    font-size: 100%;
+    display: inline;
+    font-weight: bold;
+    color: rgb(45, 114, 39);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

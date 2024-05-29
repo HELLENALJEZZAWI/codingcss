@@ -1,0 +1,15 @@
+body{
+  height:100%;
+}
+
+
+div.fixed {
+    position: fixed;
+    size:30%;
+    right: 0;
+    height:40px;
+   margin-top: 5%;
+  
+   
+  }
+ 
